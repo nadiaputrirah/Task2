@@ -1,0 +1,207 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVIGASI */
+.navbar {
+    background-color: #5EA877;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-style: normal;
+    color: white;
+    font-size: small;
+    letter-spacing: 0.05em;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: yellow;
+}
+
+nav .navbar-collapse .btn {
+    border-radius: 100px;
+    box-shadow: 0px 4px 20px rgba(251, 123, 67, 0.3);
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: #5ea877;
+    color: white;
+    border-radius: 0px 0px 0px 200px;
+}
+
+.jumbotron h1 {
+    font-size: 48.6544px;
+    font-family: 'Lora';
+    font-style: normal;
+}
+
+.jumbotron p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.jumbotron .container .img {
+    position: relative;
+
+}
+
+.jumbotron .container .login {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    bottom: 50px;
+    left: 300px;
+}
+
+/* FILEM */
+.filem .caption h3 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+}
+
+/* BERBAYAR */
+.berbayar h6 {
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #787676;
+}
+
+.berbayar h3 {
+    font-family: 'Lora';
+    font-size: 40px;
+}
+
+.berbayar h5 {
+    font-size: 17px;
+}
+
+.berbayar figcaption button {
+    width: 76px;
+    height: 30.52px;
+    font-size: 9.78788px;
+}
+
+.berbayar .container .icon-arrow {
+    font-size: 40px;
+    color: yellow;
+}
+
+/* GENRE */
+.genre .container .img {
+    position: relative;
+}
+
+.genre .container .img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+
+.genre .container .img:hover a {
+    opacity: 0;
+}
+
+.genre h3 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.genre .col a {
+    font-size: 15.6897px;
+}
+
+/* TESTIMONIAL */
+.testimonial h3 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.testimonial .card {
+    max-width: 393px;
+    max-height: 420px;
+    border: 1px solid #D5D5D5;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.testimonial .card .img .profile {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.testimonial .card h4 {
+    font-style: normal;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.testimonial .card p {
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    color: #656262;
+
+}
+
+.testimonial .container .img {
+    position: relative;
+}
+
+.testimonial .container .card .profile-pic {
+    position: absolute;
+    z-index: 10000;
+    right: 210px;
+}
+
+/* Footer */
+footer {
+    background: #5EA877;
+    border-radius: 200px 0px 0px 0px;
+}
+
+footer {
+    background: #5EA877;
+    border-radius: 200px 0px 0px 0px;
+}
+
+footer .container-fluid {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+footer .container-fluid .column .component a {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+
+footer .container-fluid .column .component li:hover a {
+    color: rgba(102, 100, 100, 0.7);
+}
